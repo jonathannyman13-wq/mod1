@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "threebythree",
+  "version": "${version}",
+  "name": "3x3 + Tree Axe Enchantments",
+  "description": "Adds the 3x3 enchantment (pickaxes and axes) and the Tree Axe enchantment (axes). Sneak to break a single block.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.threebythree.ThreeByThree"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
